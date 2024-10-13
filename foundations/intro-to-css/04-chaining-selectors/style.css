@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+
+.avatar{
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.avatar.proportioned{
+    height: auto;
+    width: 300px;
+}
+
+.avatar.distorted{
+    height: 400px;
+    width: 200px;
+}
